@@ -33,10 +33,13 @@ const InstallButton = () => {
   };
 
   return (
-    <>
-      butib
-    </>
-    
+    <button
+      id="installButton"
+      style={{ display: deferredPrompt ? 'block' : 'none' }}
+      onClick={handleInstallClick}
+    >
+      Instalar PWA
+    </button>
   );
 };
 
