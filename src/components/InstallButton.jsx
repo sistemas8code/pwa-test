@@ -35,7 +35,7 @@ const InstallButton = () => {
   return (
     <button
       id="installButton"
-      style={{ display: deferredPrompt ? 'block' : 'none' }}
+      style={{ background: deferredPrompt ? 'blue' : 'gray' }}
       onClick={handleInstallClick}
     >
       Instalar PWA
