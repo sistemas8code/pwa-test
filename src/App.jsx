@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import RecordAudio from './components/RecordAudio'
 import PushNotifications from './components/PushNotifications'
 import InstallButton from './components/InstallButton'
+import NewButton from './components/NewButton'
 import './App.css'
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
       <RecordAudio />
       <PushNotifications />
       <InstallButton/>
-      
+      <NewButton />
       <button  id="install">instal</button>
       <div>
         <a href="https://vitejs.dev" target="_blank">
